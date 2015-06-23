@@ -1,4 +1,4 @@
-import TestButton from './TestButton.jsx';
+import OrderItem from './OrderItem.jsx';
 
 export default class App extends React.Component {
     constructor(props, context) {
@@ -13,11 +13,8 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                <div>Hello maven grunt babel react</div>
-                <TestButton onClick={this.onBtnClick.bind(this)}/>
+                <OrderItem />
             </div>
         );
     }
-
-    //<TestButton onClick={this.onBtnClick} ></TestButton>
 };
