@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>welcome my homepage!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1 th:text="'Welcome ' + ${message} + ' :)'"/>
+
+<div id="container"></div>
+
+</body>
+<script src="vendor/react.js"></script>
+<script src="js/build/main.min.js"></script>
+</html>
